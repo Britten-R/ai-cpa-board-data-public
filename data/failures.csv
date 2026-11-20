@@ -1,0 +1,124 @@
+tier,jurisdiction,url,reason
+crawl (tiers 1-2),Alaska,,"Board web pages return HTTP 403 to automated requests (PDFs retrievable); meeting index not crawled, only search-located PDFs fetched"
+crawl (tiers 1-2),Arizona,,HTTP 403 to automated requests (including robots.txt); site not crawled
+crawl (tiers 1-2),Guam,,TLS certificate verification failed through the network proxy; site not crawled
+crawl (tiers 1-2),Iowa,,dial.iowa.gov returns HTTP 403 to automated requests; board pages not crawled
+crawl (tiers 1-2),Massachusetts,,mass.gov returns HTTP 403 to automated requests; site not crawled
+crawl (tiers 1-2),Minnesota,,boa.state.mn.us redirected to a bot-validation (perfdrive) page; mn.gov/boa crawled instead but no meeting PDFs found
+crawl (tiers 1-2),New Hampshire,,oplc.nh.gov returns HTTP 403 to automated requests; site not crawled
+crawl (tiers 1-2),New Jersey,,njconsumeraffairs.gov serves an Incapsula bot challenge; not bypassed; site not crawled
+crawl (tiers 1-2),New York,,op.nysed.gov TLS certificate verification failed through the network proxy; site not crawled
+crawl (tiers 1-2),Illinois,,idfpr.illinois.gov pages crawled but ilga.gov (statutes/rules) failed TLS verification through the proxy
+crawl (tiers 1-2),Missouri,,pr.mo.gov intermittently failed TLS verification; no meeting materials identified in crawl
+crawl (tiers 1-2),Colorado,,Board meeting minutes are posted as Google Drive links; not downloaded
+crawl (tiers 1-2),California,,cba.ca.gov meeting-materials index returns HTTP 403 to automated requests; only individually located PDFs retrieved
+crawl (tiers 1-2),Connecticut,,DCP minutes pages for 2023-2026 return 404; no 2023+ minutes found
+crawl (tiers 1-2),Montana,,boardmeetings.dli.mt.gov document links return a 95-byte placeholder to automated requests; no meeting files retrieved
+crawl (tiers 1-2),Delaware,,Meeting materials are on publicmeetings.delaware.gov (JavaScript application); not retrieved
+crawl (tiers 1-2),Northern Mariana Islands,,No standalone board website listed by NASBA; no meeting materials online
+crawl (tiers 1-2),U.S. Virgin Islands,,No meeting materials posted on dlca.vi.gov
+crawl (tiers 1-2),California,https://www.dca.ca.gov/cba/about/approved_regulations/oal_approval_2026-0323-02s.pdf,file over 50 MB (53922471 bytes); skipped
+crawl (tiers 1-2),California,https://www.dca.ca.gov/cba/outreach/annual_rpt_2025.pdf,file over 50 MB (54262060 bytes); skipped
+crawl (tiers 1-2),South Dakota,http://www.gao.gov/assets/80/76894.pdf,document not retrieved: 403 
+crawl (tiers 1-2),Florida,https://www2.myfloridalicense.com/cpa/committees/edu/2023/11nov/nov9book.pdf,file over 50 MB (55212360 bytes); skipped
+crawl (tiers 1-2),Illinois,https://emma-assets.s3.amazonaws.com/nbsab/2fd38992aa7fa7fcdbb31ca5b5214c97/Illinois_Newsletter_Draft_03.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Illinois,https://www.ilboe.org/icwp-wpsf-link-cheese/,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Illinois,https://emma-assets.s3.amazonaws.com/nbsab/c65b2d161f8b8e355c13f40ddc9e73bf/Illinois_August_2019_Final.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Illinois,https://emma-assets.s3.amazonaws.com/nbsab/f5a4782c6593771b2d06055b5571df31/Illinois_February_2019_FINAL.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Illinois,https://emma-assets.s3.amazonaws.com/nbsab/7cc48c1e50c1c41bec11f993fd26a29b/Illinois_Newsletter_August_2018_Final.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Illinois,https://www.ilboe.org/wp-content/uploads/2022/12/Agenda-December-14-2022-1.pdf,"document not retrieved: error HTTPSConnectionPool(host='www.ilboe.org', port=443): Max retries exceeded with url: /wp-content/uploads/2022/12/Agenda-D"
+crawl (tiers 1-2),North Dakota,https://www.medialibrary.nd.gov/assetbank-nd/assetfile/116577.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),North Dakota,https://www.medialibrary.nd.gov/assetbank-nd/assetfile/116578.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),North Dakota,https://www.medialibrary.nd.gov/assetbank-nd/assetfile/116571.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),North Dakota,https://www.medialibrary.nd.gov/assetbank-nd/assetfile/116567.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),North Dakota,https://higherlogicdownload.s3.amazonaws.com/AUVSI/958c920a-7f9b-4ad2-9807-f9a4e95d1ef1/UploadedImages/New_Economic%20Report%202013%20Full.pdf,document not retrieved: 403 
+crawl (tiers 1-2),North Dakota,https://www.ndtourism.com/sites/default/files/2020-09/North-Dakota-Tourism-Social-Media-Response-Policy.pdf,document not retrieved: 403 
+crawl (tiers 1-2),Hawaii,https://web.archive.org/web/20260207163134/https://cca.hawaii.gov/pvl/files/2022/10/acct_220826.pdf,"document not retrieved: error ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+crawl (tiers 1-2),Hawaii,https://web.archive.org/web/20260207162345/https://cca.hawaii.gov/pvl/files/2014/09/acct_140404_min.pdf,"document not retrieved: error ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+crawl (tiers 1-2),Hawaii,https://web.archive.org/web/20250419182430/https://files.hawaii.gov/dcca/pvl/boards/accountancy/board-meeting-minutes/2011-accountancy-meeting-minutes/acct_111007_min.pdf,"document not retrieved: error ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+crawl (tiers 1-2),Mississippi,https://billstatus.ls.state.ms.us/documents/2026/pdf/SB/3000-3099/SB3088SG.pdf,"document not retrieved: error HTTPSConnectionPool(host='billstatus.ls.state.ms.us', port=443): Max retries exceeded with url: /documents/2026/pdf/SB/3"
+crawl (tiers 1-2),Mississippi,https://billstatus.ls.state.ms.us/documents/2026/pdf/HB/1400-1499/HB1444SG.pdf,"document not retrieved: error HTTPSConnectionPool(host='billstatus.ls.state.ms.us', port=443): Max retries exceeded with url: /documents/2026/pdf/HB/1"
+crawl (tiers 1-2),Mississippi,https://billstatus.ls.state.ms.us/documents/2026/pdf/HB/1500-1599/HB1546SG.pdf,"document not retrieved: error HTTPSConnectionPool(host='billstatus.ls.state.ms.us', port=443): Max retries exceeded with url: /documents/2026/pdf/HB/1"
+crawl (tiers 1-2),Mississippi,https://billstatus.ls.state.ms.us/documents/2026/pdf/SB/2700-2799/SB2778SG.pdf,"document not retrieved: error HTTPSConnectionPool(host='billstatus.ls.state.ms.us', port=443): Max retries exceeded with url: /documents/2026/pdf/SB/2"
+crawl (tiers 1-2),Oregon,https://www.oregon.gov/BOA/Documents/2023-09-29%20Board%20Minutes%20PUB%201.m4a,file over 50 MB (192337847 bytes); skipped
+crawl (tiers 1-2),Oregon,https://www.oregon.gov/BOA/Documents/2022-12-15%20Board%20Minutes%20PUB%201.m4a,file over 50 MB (206997570 bytes); skipped
+crawl (tiers 1-2),Oregon,https://www.oregon.gov/BOA/Documents/2022-09-30%20Board%20Minutes%20PUB%201.WMA,file over 50 MB (114362726 bytes); skipped
+crawl (tiers 1-2),Oregon,https://www.oregon.gov/BOA/Documents/2022-12-12%20QC%20Minutes.m4a,file over 50 MB (152563298 bytes); skipped
+crawl (tiers 1-2),Puerto Rico,https://assets.website-files.com/625e5649d4539f40026d56ef/6310667480719c0e14021dbe_Convocatoria-2022-2023-REV-KMS-.pdf,document not retrieved: 403 
+crawl (tiers 1-2),Puerto Rico,https://docs.pr.gov/files/Estado/Documentos%20Administrativos/Informes%20del%20concilio%20de%20reconstruccion/PrimerInforme.pdf,file over 50 MB (69956545 bytes); skipped
+crawl (tiers 1-2),Puerto Rico,https://docs.pr.gov/files/Estado/Documentos%20Administrativos/Informes%20del%20concilio%20de%20reconstruccion/Tercer%20Informe.pdf,file over 50 MB (78865446 bytes); skipped
+crawl (tiers 1-2),Puerto Rico,https://assets.website-files.com/625e5649d4539f40026d56ef/62a30c29bb3f7658e924db21_TG001.pdf,document not retrieved: 403 
+crawl (tiers 1-2),Kansas,https://emma-assets.s3.amazonaws.com/nbsab/1989f103cd2a9729dd6f45db7003f42b/2025_Kansas_January_Newsletter_draft_03.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Kansas,https://emma-assets.s3.amazonaws.com/nbsab/0ea15cab6faf53022a64aff7fb2d03a4/2024_Kansas_January_Newsletter_Final01.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Kansas,https://emma-assets.s3.amazonaws.com/nbsab/d13c511d94dbb8e26c2624acaceb1330/2023_Kansas_April_Newsletter_Final.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Kansas,https://emma-assets.s3.amazonaws.com/nbsab/ca0df8eca40eefb08a5bde8af29df1e8/2022_Kansas_October_Newsletter_Final.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Kansas,https://webadmin.ks.gov/media/cms/holidays2026_2aae3ebfd972c.pdf,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Washington,https://wa.gov/,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Washington,http://wa.gov,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Washington,https://wa.gov/get-help,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Nebraska,https://chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://nasba.org/wp-content/uploads/2026/06/NebraskaCertificateOfEnrollment-2.pdf,"document not retrieved: error HTTPSConnectionPool(host='chrome-extension', port=443): Max retries exceeded with url: //efaidnbmnnnibpcajpcglclefindmka"
+crawl (tiers 1-2),Nebraska,https://nbpa.nebraska.gov/user/login,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Nebraska,https://nbpa.nebraska.gov/user/password,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Nebraska,https://www.nebraska.gov/app-fsp/,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Delaware,https://delaware.gov/contact/,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Delaware,https://delaware.gov/contact,disallowed by robots.txt; not fetched
+crawl (tiers 1-2),Delaware,https://www.dhss.delaware.gov/dhss/dph/hsm/files/oralhealthresources.pdf,document not retrieved: 403 
+crawl (tiers 1-2),Delaware,https://www.dhss.delaware.gov/dhss/dph/files/womensoralhealthpi.pdf,document not retrieved: 403 
+crawl (tiers 1-2),Delaware,https://www.dhss.delaware.gov/dhss/dsaapd/files/aps.pdf,document not retrieved: 403 
+crawl (tiers 1-2),Delaware,https://deljis.delaware.gov/pdfs/VINELink%20Quick%20Reference%20Guide.pdf,"document not retrieved: error HTTPSConnectionPool(host='deljis.delaware.gov', port=443): Max retries exceeded with url: /pdfs/VINELink%20Quick%20Refer"
+crawl (tiers 1-2),Delaware,https://deljis.delaware.gov/pdfs/VINELink%20Registration%20Update%20Guide.pdf,"document not retrieved: error HTTPSConnectionPool(host='deljis.delaware.gov', port=443): Max retries exceeded with url: /pdfs/VINELink%20Registration%"
+crawl (tiers 1-2),Delaware,https://deljis.delaware.gov/pdfs/VINE%20English%20Brochure.pdf,"document not retrieved: error HTTPSConnectionPool(host='deljis.delaware.gov', port=443): Max retries exceeded with url: /pdfs/VINE%20English%20Brochur"
+crawl (tiers 1-2),Delaware,https://deljis.delaware.gov/pdfs/VINE%20Spanish%20Brochure.pdf,"document not retrieved: error HTTPSConnectionPool(host='deljis.delaware.gov', port=443): Max retries exceeded with url: /pdfs/VINE%20Spanish%20Brochur"
+crawl (tiers 1-2),Delaware,https://dprfiles.delaware.gov/architects/Notice_from_Out-of-State_Arch_1.pdf,"document not retrieved: error HTTPSConnectionPool(host='dprfiles.delaware.gov', port=443): Max retries exceeded with url: /architects/Notice_from_Out-"
+targeted fetch,,https://www.mass.gov/event/board-of-public-accountancy-meeting-52126-05-21-2026,403 
+targeted fetch,,https://pr.mo.gov/boards/accountancy/meetings/2026-06-03%20Open%20Agenda.pdf,"error HTTPSConnectionPool(host='pr.mo.gov', port=443): Max retries exceeded with url: /boards/accountancy/meetings/2026-06-03%20Open%20Agenda.pdf (Caused by"
+targeted fetch,,https://www.oplc.nh.gov/sites/g/files/ehbemt441/files/inline-documents/2024_newhampshire_newsletter_summer-2024-v02.pdf,403 
+targeted fetch,,https://www.op.nysed.gov/sites/op/files/2025-11/Z-Public%20Packet%202025.11.17.pdf,"error HTTPSConnectionPool(host='www.op.nysed.gov', port=443): Max retries exceeded with url: /sites/op/files/2025-11/Z-Public%20Packet%202025.11.17.pdf (Cau"
+targeted fetch,,https://www.azaccountancy.gov/robots.txt,403 
+targeted fetch,,https://www.njconsumeraffairs.gov/acc/Pages/minutes.aspx,404 
+targeted fetch,,https://pr.mo.gov/accountancy.asp,"error HTTPSConnectionPool(host='pr.mo.gov', port=443): Max retries exceeded with url: /accountancy.asp (Caused by SSLError(SSLCertVerificationError(1, '[SSL"
+targeted fetch,,https://pcaobus.org/oversight/standards/standard-setting-research-projects,403 
+targeted fetch,,https://assets.pcaobus.org/,400 
+targeted fetch,,https://www.iaasb.org/consultations-projects/technology,403 
+targeted fetch,,https://dev-pws.pcaobus.org/about/rules-rulemaking/rulemaking-dockets/docket-052,403 
+targeted fetch,,https://pcaobus.org/about/rules-rulemaking/rulemaking-dockets/docket-052,403 
+targeted fetch,,https://pcaobus.org/sitemap.xml,403 
+targeted fetch,,https://www.cba.ca.gov/cba/communications-and-outreach/meetings/,403 
+targeted fetch,,https://www.cba.ca.gov/cba/communications-and-outreach/cba-meetings.shtml,404 
+targeted fetch,,https://apps.azsos.gov/public_services/Title_04/4-01.pdf,403 
+targeted fetch,,https://www.cga.ct.gov/current/pub/chap_389.htm,"error HTTPSConnectionPool(host='www.cga.ct.gov', port=443): Max retries exceeded with url: /current/pub/chap_389.htm (Caused by SSLError(SSLCertVerification"
+targeted fetch,,https://www.capitol.hawaii.gov/hrscurrent/Vol10_Ch0436-0474/HRS0466/HRS_0466-.htm,403 
+targeted fetch,,https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=1363&ChapterID=24,"error HTTPSConnectionPool(host='www.ilga.gov', port=443): Max retries exceeded with url: /legislation/ilcs/ilcs3.asp?ActID=1363&ChapterID=24 (Caused by SSLE"
+targeted fetch,,https://www.ilga.gov/commission/jcar/admincode/068/06801420sections.html,"error HTTPSConnectionPool(host='www.ilga.gov', port=443): Max retries exceeded with url: /commission/jcar/admincode/068/06801420sections.html (Caused by SSL"
+targeted fetch,,https://www.maine.gov/sos/cec/rules/02/chaps02.htm,404 
+targeted fetch,,https://gc.nh.gov/rsa/html/XXX/309-B/309-B-mrg.htm,"error HTTPSConnectionPool(host='gc.nh.gov', port=443): Max retries exceeded with url: /rsa/html/XXX/309-B/309-B-mrg.htm (Caused by ProxyError('Unable to con"
+targeted fetch,,https://gc.nh.gov/rules/state_agencies/ac100-900.html,"error HTTPSConnectionPool(host='gc.nh.gov', port=443): Max retries exceeded with url: /rules/state_agencies/ac100-900.html (Caused by ProxyError('Unable to "
+targeted fetch,,https://www.njconsumeraffairs.gov/regulations/Chapter-29-State-Board-of-Accountancy.pdf,404 
+targeted fetch,,https://www.nysenate.gov/legislation/laws/EDN/A149,403 
+targeted fetch,,https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/049/chapter11/chap11toc.html,robots_disallowed 
+targeted fetch,,https://publications.tnsosfiles.com/rules/0020/0020-03.20250301.pdf,403 
+targeted fetch,,https://www.tsbpa.texas.gov/pdffiles/TSBPAACT.pdf,404 
+targeted fetch,,https://www.tsbpa.texas.gov/pdffiles/rules.pdf,404 
+targeted fetch,,https://adminrules.utah.gov/public/rule/R156-26a/Current%20Rules,404 
+targeted fetch,,https://legislature.vermont.gov/statutes/chapter/26/001,"error ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+targeted fetch,,https://docs.legis.wisconsin.gov/code/admin_code/accy,"error ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+targeted fetch,,https://docs.legis.wisconsin.gov/statutes/statutes/442,"error ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+targeted fetch,,https://www.sec.gov/comments/pcaob-2024-003/pcaob2024003.htm,403 
+targeted fetch,,https://sec.gov/comments/pcaob-2024-003/pcaob2024003-493883-1431266.pdf,403 
+targeted fetch,,https://www.financialexecutives.org/getattachment/Influence/Comment-Letters/2026/CCR-Responds-to-the-PCAOB-s-Request-for-Comment-on/PCAOB-No-2026-005_FEI-CCR.pdf.aspx?lang=en-US,403 
+targeted fetch,,https://govt.westlaw.com/calregs/Document/IC8278C934C8111EC89E5000D3A7C4BC3?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=(sc.Default),403 
+targeted fetch,,https://govt.westlaw.com/calregs/Document/IC82EDF934C8111EC89E5000D3A7C4BC3?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=(sc.Default),403 
+targeted fetch,,https://govt.westlaw.com/calregs/Document/IC85357834C8111EC89E5000D3A7C4BC3?viewType=FullText&originationContext=documenttoc&transitionType=CategoryPageItem&contextData=(sc.Default),403 
+targeted fetch,,https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=5063.3,403 
+targeted fetch,,https://ndlegis.gov/information/acdata/html/3-04.html,404 
+targeted fetch,,https://rules.sos.ga.gov/gac/20-12-.07,robots_disallowed 
+targeted fetch,,https://rules.sos.ga.gov/gac/20-12-.11,robots_disallowed 
+targeted fetch,,https://rules.sos.ga.gov/gac/20-12-.19,robots_disallowed 
+targeted fetch,,https://www.ndlegis.gov/information/acdata/html/3.html,404 
+targeted fetch,,https://drive.google.com/uc?export=download&id=1Nq5V3fbfYdDmG__OhSJgIzWtrFaELXzL,robots_disallowed 
+targeted fetch,,http://www.sos.ne.gov/rules-and-regs/regsearch/Rules/Board_of_Public_Accountancy/Title-288/Chapter-5.pdf,404 
+targeted fetch,,https://www.pa.gov/agencies/dos/department-and-offices/bpoa/boards-commissions/accountancy,404 
+targeted fetch,,https://www.pa.gov/agencies/dos/department-and-offices/bpoa/boards-commissions/accountancy.html,404 
+targeted fetch,,https://nbpa.nebraska.gov/public-info/statutes-and-regulations,404 
+targeted fetch,,https://idfpr.illinois.gov/profs/pubacct.html,404 
+tier 1,National (AICPA),https://www.aicpa-cima.com/resources/download/peec-strategy-consultation-paper,PDF behind a JavaScript download button; landing-page text used instead

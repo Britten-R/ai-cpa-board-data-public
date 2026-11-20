@@ -1,0 +1,22 @@
+jurisdiction,access_class,stated_blocker,checked_utc
+California,blocked (with evidence),"Listings need JavaScript data from www.cba.ca.gov; its robots.txt redirects, so permission unverified; no data endpoint fetched.",2026-11-16T15:11:37Z
+Delaware,blocked (with evidence),"Meetings are on an Angular portal; its API config path is robots-disallowed, so not fetched.",2026-11-16T15:11:39Z
+Guam,blocked (with evidence),Site failed: TLS certificate expired / did not load.,2026-11-16T15:11:41Z
+Kentucky,not published online,"Only an annual 2026 calendar found on home, About and Sitemap pages; no agendas or minutes linked.",2026-11-16T15:11:44Z
+Minnesota,blocked (with evidence),boa.state.mn.us redirects to a perfdrive (ShieldSquare) bot-validation page.,2026-11-16T15:11:44Z
+Montana,blocked (with evidence),Meeting listing reached; the document handler returns a 95-byte placeholder instead of files.,2026-11-16T15:11:47Z
+New Jersey,blocked (with evidence),njconsumeraffairs.gov serves an Incapsula bot challenge.,2026-11-16T15:11:47Z
+New Mexico,blocked (with evidence),"Agenda/minutes tables are RealFile widgets; the vendor host returned 403 for robots.txt, so nothing fetched.",2026-11-16T15:11:50Z
+Northern Mariana Islands,not published online,No standalone board website; NASBA page only.,2026-11-16T15:11:55Z
+Puerto Rico,could not verify,Board page is a JavaScript application that needs further inspection.,2026-11-16T15:11:57Z
+U.S. Virgin Islands,not published online,No meeting materials posted on dlca.vi.gov.,2026-11-16T15:11:59Z
+Utah,blocked (with evidence),"Old URL 404; past-meetings script lists meetings; a utah.gov notice page returned a challenge, so requests stopped.",2026-11-16T15:12:01Z
+Wyoming,blocked (with evidence),Minutes are on Google Drive; the /uc download path is disallowed by Drive robots.txt.,2026-11-16T15:12:03Z
+Arizona,published but not collected,"HTTP 403 to automated requests, including robots.txt.",2026-11-16T14:55:03Z
+District of Columbia,could not verify,None stated; completeness note only.,2026-11-16T15:12:06Z
+Iowa,published but not collected,dial.iowa.gov returns 403 / challenge to automated requests.,2026-11-16T15:12:08Z
+Massachusetts,published but not collected,"mass.gov returns 403 to automated requests, including robots.txt.",2026-11-16T15:12:08Z
+Missouri,could not verify,pr.mo.gov intermittently failed TLS verification.,2026-11-16T15:12:10Z
+North Dakota,could not verify,None stated for meeting pages; 4 medialibrary.nd.gov files disallowed by robots.txt.,2026-11-16T15:12:12Z
+Vermont,blocked (with evidence),Archive renderer (vermont.preservica.com) is robots-disallowed; 35 archive objects listed only.,2026-11-16T15:12:16Z
+Wisconsin,could not verify,None stated; listing shows 2 meetings.,2026-11-16T15:12:18Z

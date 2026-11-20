@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="403.2pt" viewBox="0 0 720 403.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 403.2 
+L 720 403.2 
+L 720 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 309.6 81.368361 
+L 631.028571 81.368361 
+L 631.028571 108.785961 
+L 309.6 108.785961 
+z
+" clip-path="url(#p51ad0e0239)" style="fill: #d9d4ce"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 309.6 125.590297 
+L 484.924675 125.590297 
+L 484.924675 153.007897 
+L 309.6 153.007897 
+z
+" clip-path="url(#p51ad0e0239)" style="fill: #f6cba8"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 309.6 169.812232 
+L 403.106494 169.812232 
+L 403.106494 197.229832 
+L 309.6 197.229832 
+z
+" clip-path="url(#p51ad0e0239)" style="fill: #f6cba8"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 309.6 214.034168 
+L 368.041558 214.034168 
+L 368.041558 241.451768 
+L 309.6 241.451768 
+z
+" clip-path="url(#p51ad0e0239)" style="fill: #f6cba8"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 309.6 258.256103 
+L 315.444156 258.256103 
+L 315.444156 285.673703 
+L 309.6 285.673703 
+z
+" clip-path="url(#p51ad0e0239)" style="fill: #e8998d"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 15px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start; fill: #1a1a1a" x="635.85" y="98.658704" transform="rotate(-0 635.85 98.658704)">55</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #1a1a1a" x="299.957143" y="98.068128" transform="rotate(-0 299.957143 98.068128)">All state and territorial boards</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 15px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start; fill: #1a1a1a" x="489.746104" y="142.88064" transform="rotate(-0 489.746104 142.88064)">30</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 12.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #1a1a1a" x="299.957143" y="142.290064" transform="rotate(-0 299.957143 142.290064)">Boards with a document mentioning AI since 2023</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 15px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start; fill: #1a1a1a" x="407.927922" y="187.102575" transform="rotate(-0 407.927922 187.102575)">16</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #1a1a1a" x="299.957143" y="186.511999" transform="rotate(-0 299.957143 186.511999)">…where the board itself is speaking</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 15px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start; fill: #1a1a1a" x="372.862987" y="231.324511" transform="rotate(-0 372.862987 231.324511)">10</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #1a1a1a" x="299.957143" y="230.733935" transform="rotate(-0 299.957143 230.733935)">…where the board is speaking about CPAs using AI</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start; fill: #1a1a1a" x="320.265584" y="275.425597" transform="rotate(-0 320.265584 275.425597)">1</text>
+   </g>
+   <g id="text_10">
+    <text style="font-style: italic; font-size: 11px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start; fill: #555555" x="336.337013" y="274.596954" transform="rotate(-0 336.337013 274.596954)">plus 1 draft (Virginia)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #1a1a1a" x="299.957143" y="274.852354" transform="rotate(-0 299.957143 274.852354)">Boards that published their own guidance</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start; fill: #1a1a1a" x="314.421429" y="319.647532" transform="rotate(-0 314.421429 319.647532)">0</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #1a1a1a" x="299.957143" y="319.07429" transform="rotate(-0 299.957143 319.07429)">Boards with an AI-specific rule</text>
+   </g>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start; fill: #1a1a1a" x="21.6" y="32.146119" transform="rotate(-0 21.6 32.146119)">From Talk to Rules: How 55 Accountancy Boards Have Responded to AI</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 10px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start; fill: #555555" x="21.6" y="385.432773" transform="rotate(-0 21.6 385.432773)">Source: public records of 55 state and territorial accountancy boards, January 2023 to November 2026.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p51ad0e0239">
+   <rect x="309.6" y="68.544" width="360" height="274.176"/>
+  </clipPath>
+ </defs>
+</svg>

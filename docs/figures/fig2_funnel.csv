@@ -1,0 +1,7 @@
+level,label,boards,definition,jurisdictions,note
+1,All state and territorial boards,55,all boards,all 55,
+2,Boards with a document mentioning AI since 2023,30,Tier 1 document dated 2023+,Alabama; Alaska; Arizona; Arkansas; California; Colorado; Florida; Idaho; Illinois; Louisiana; Maryland; Michigan; Mississippi; Nebraska; New Hampshire; New Jersey; New Mexico; New York; North Carolina; Ohio; Oklahoma; Pennsylvania; South Carolina; South Dakota; Tennessee; Texas; Virginia; Washington; Wisconsin; Wyoming,
+3,…where the board itself is speaking,16,board itself speaking,Alabama; Arizona; Arkansas; California; Illinois; Louisiana; Maryland; New Hampshire; New Jersey; North Carolina; Ohio; Pennsylvania; Texas; Virginia; Washington; Wyoming,
+4,…where the board is speaking about CPAs using AI,10,"board speaking, CPAs using AI",Alabama; Arizona; Arkansas; California; Maryland; New Jersey; Pennsylvania; Texas; Virginia; Washington,
+5,Boards that published their own guidance,1,board-authored guidance (note: drafts),Texas,plus 1 draft (Virginia)
+6,Boards with an AI-specific rule,0,AI-specific rule,,
